@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rowdies&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: block;
+    align-items: center;
+}
+.boxed-content img {
+    margin-right: 25px;
+}
+.boxed-content{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    background-color: #efefef;
+    padding: 5vw;
+    margin: 5vw;
+}
+p {
+    display: inline;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.heading{
+    margin-left: 5vw;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.cupcake_form{
+    background-color: #efefef;
+    padding: 5vw;
+    margin: 5vw;
+}
+label{
+    font-size: 20px;
+    font-weight: 800;
+}
+.trash{
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.2s;
+    margin-right: 25px;
+}
+.trash img{
+    padding: 0;
+    margin: 0;
+}
+.trash:hover {
+    transform: scale(1.2); /* Increase button size by 10% */
+}

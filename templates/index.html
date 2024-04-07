@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+
+    <!-- Display Form To Add A Cupcake -->
+    <h1 class="heading">Add a new cupcake!</h1>
+    <form action="/api/cupcakes" class="cupcake_form">
+        <label for="flavor">Flavor: </label>
+        <input type="text" name="flavor" placeholder="Enter a flavor"><br>
+        <label for="size">Size: </label>
+        <input type="text" name="size" placeholder="Enter a size"><br>
+        <label for="rating">Rating: </label>
+        <input type="text" name="rating" placeholder="Rate your cupcake!"><br>
+        <label for="image">Image URL: </label>
+        <input type="text" name="image" placeholder="Enter an image url"><br>
+        <button type="submit">Add</button>
+    </form>
+
+    <!-- Display All Cupcakes -->
+    <h1 class="heading">Look at all those cupcakes!</h1>
+    <div class="container"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="static/cupcakes.js"></script>
+
+</body>
+</html>
